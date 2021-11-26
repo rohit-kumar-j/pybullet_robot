@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     controller = OSImpedanceController(robot)
 
-    print "started"
+    print("started")
 
     z_traj = np.linspace(goal_pos[2], 0.34, 500)
 
