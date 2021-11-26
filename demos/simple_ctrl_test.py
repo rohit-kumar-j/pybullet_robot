@@ -44,7 +44,7 @@ if __name__ == "__main__":
         
         goal_pos[2] = z_traj[i]
 
-        print "Goal:", ee_pos, "Actual:", goal_pos
+        print("Goal:", ee_pos, "Actual:", goal_pos)
         controller.update_goal(goal_pos, goal_ori)
 
         elapsed = time.time() - now
